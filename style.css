@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family: monospace;
+
+}
+.main{
+    height: auto;
+}
+.navbar {}
+
+a {
+    color: white;
+}
+
+.image-div {
+}
+
+.main-img {
+    width: 100%;
+    height: 100%;
+}
+
+.home-about{
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* service section*/
+.nav-id {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.400);
+    transition: 0.3s;
+    float: left;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.900);
+}
+/*gallery section*/
+.gallery{
+    height: auto;
+}
+.section-gallery{
+    background-color: #133863;
+}
+/*courses section*/
+.section-couses{
+    background-color: #13634f;
+}
+.courses{
+    height: auto;
+}
+.card-headding{
+    text-align: center;
+    font-weight: bold;
+
+}
