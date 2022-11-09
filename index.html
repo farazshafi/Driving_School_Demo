@@ -17,9 +17,11 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <!--main section-->
     <div class="main">
         <!--navigation-->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Driving school</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -41,10 +43,10 @@
                         <a class="nav-link" href="#courses">Courses</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Location</a>
+                        <a class="nav-link" href="#">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -60,24 +62,15 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="media/main draiving.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>sample text</h5>
-                                <p>detials about that</p>
-                            </div>
+
                         </div>
                         <div class="carousel-item">
                             <img src="media/main draiving.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide sample text</h5>
-                                <p>some thing about that.</p>
-                            </div>
+
                         </div>
                         <div class="carousel-item">
                             <img src="media/main draiving.jpg" class="d-block w-100" alt="...">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide sample text</h5>
-                                <p>some thing about that too</p>
-                            </div>
+
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -94,11 +87,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 bg-dark text-light mt-2 mb-2 home-about">
-                    <p style="font-size: 15px;">It's one of our greatest achievements, that, we are trusted for our
-                        training expertise by many
-                        corporate companies around the world. We have been giving training and conducting test for their
-                        drivers from India for more than 40 years. Moreover that, you can find many of our expert
-                        students in almost all the government departments.</p>
+                    <p style="font-size: 15px;">Our school's focus is on heavy equipment hands on training, all we do is
+                        train you to operate heavy equipment.Our training is known for its quality standards in the
+                        industry as we only offer in the machine training</p>
                 </div>
                 <div class="col-lg-12 bg-info text-light mt-2 mb-2 home-about">
                     <p style="font-size: 15px;">It's one of our greatest achievements, that, we are trusted for our
@@ -170,6 +161,7 @@
                             training school in Kerala having 12+ branches. We are the pioneers in this field, founded by
                             Mr.
                             T V Lalan.</p>
+
                     </div>
                 </div>
             </div>
@@ -216,7 +208,7 @@
 
     <!-- courses section  -->
     <section class="section-couses" id="courses">
-        <div class="courses container"> 
+        <div class="courses container">
             <h2 class="nav-id text-light">Courses</h2>
             <div class="card-deck  mt-2">
                 <div class="co-4 card mt-2 mb-3">
@@ -225,6 +217,7 @@
                         <h5 class="card-title">sample text</h5>
                         <p class="card-text">A2Z provides one stop automated solution for the scarcity of the skilled
                             drivers and operators</p>
+                        <a href="#" class="btn btn-primary">More</a>
                     </div>
                 </div>
                 <div class="card mt-2 mb-3">
@@ -233,6 +226,7 @@
                         <h5 class="card-title">sample text</h5>
                         <p class="card-text">We provides various driver training at different locations in Kasaragod.
                         </p>
+                        <a href="#" class="btn btn-primary">More</a>
                     </div>
                 </div>
                 <div class="card mt-2 mb-3">
@@ -244,6 +238,7 @@
                             training school in Kerala having 12+ branches. We are the pioneers in this field, founded by
                             Mr.
                             T V Lalan.</p>
+                        <a href="#" class="btn btn-primary">More</a>
                     </div>
                 </div>
             </div>
@@ -252,6 +247,27 @@
 
     <!--script section-->
     <section>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
         <!--script bootstrap-->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
