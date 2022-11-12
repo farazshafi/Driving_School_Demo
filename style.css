@@ -111,3 +111,102 @@ a {
 .about-location-txt{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+/*contact section*/
+.contact-left{
+    width: 100%;
+    border-radius: 5px;
+    
+}
+.contact-right{
+    width: 100%;
+    border-radius: 5px;
+}
+.contact-p{
+    text-decoration: none;
+    color: white;
+}
+.icon i {
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.contact-p {
+    float: left;
+    font-size: 10px;
+    color: white;
+
+
+}
+
+.contact-icon-names {
+    margin-left: 10px;
+    margin-top: 0;
+    float: left;
+    color: white;
+}
+
+.contact-p {
+    font-size: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.mail {
+    width: 50px;
+}
+
+.phone {
+    width: 50%;
+}
+
+.address {
+    width: 50%;
+}
+
+/*-- contact get in touch --*/
+label {
+    width: 17%;
+    float: left;
+    color: #fff;
+    font-weight: 600;
+
+
+
+}
+
+input {
+    width: 50%;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+
+}
+
+.get-in-touch-input {
+    float: right;
+}
+
+.get-in-touch-label {
+    width: 100%;
+}
+
+.textarea-contact {
+    width: 42%;
+    float: left;
+    margin-left: 8%;
+}
+.contact-links{
+    color: #ffffff;
+    cursor: pointer;
+}
+.contact-links:hover{
+    color: #28a745;
+    text-decoration: none;
+}

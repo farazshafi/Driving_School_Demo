@@ -48,7 +48,7 @@
                         <a class="nav-link" href="#location">Location</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -301,12 +301,93 @@
                 <div class="row">
                     <div class="col-6 mb-2 about-location">
                         <h6 class="text-white about-location-txt">
-                            Near Old Harbour Bridge Mattanchery Halt, Willington Island, Ernakulam District, Kerala, India
+                            Near Old Harbour Bridge Mattanchery Halt, Willington Island, Ernakulam District, Kerala,
+                            India
                         </h6>
                     </div>
                 </div>
             </div>
 
+
+        </div>
+    </section>
+
+    <!--Contact-->
+    <section id="contact" class="bg-light">
+        <div class="container mt-2 mb-2">
+            <h2 class="nav-id ">Contact us</h2>
+            <div class="row">
+                <div class="col-lg-6 contact-left bg-dark mt-3">
+                    <h2 class="nav-id text-white">Address info</h2>
+                    <!--mail-->
+                    <div class="col-12 mt-5  icon">
+                        <i class="fa fa-envelope-open" aria-hidden="true"></i>
+                        <h5 class="contact-icon-names">Email</h5>
+                    </div>
+                    <div class="col-12 mail mt-1">
+                        <p class="contact-p"><a class="contact-links" href="mailto:farazpachu777@email.com">
+                                farazpachu777@gmail.com</a></p>
+                    </div>
+                    <div class="col-12 mail">
+                        <p class="contact-p "><a class="contact-links" href="mailto:farazpachu777@email.com">
+                                farazshafi123@gmail.com</a></p>
+                    </div>
+                    <!--phone-->
+                    <div style="float: right;" class="col-12 mt-2  icon">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <h5 class="contact-icon-names">Phone</h5>
+                    </div>
+
+                    <div class="col-lg-12 phone mt-5">
+                        <p class="contact-p"><a class="contact-links" href="tel:+919188773788">+91 9188773788,</a></p>
+                        <p class="contact-p "><a class="contact-links" href="tel:+919497611440">+91 9497611440</a></p>
+                    </div>  
+                    <!--Location-->
+
+                    <div style="float: right;" class="col-12 mt-2 icon">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <h5 class="contact-icon-names">Address</h5>
+                    </div>
+
+                    <div class="col-12 address mt-5 ">
+                        <p class="contact-p">Alco Mahal p/o Patla</p>
+                    </div>
+                    <div class="col-12 address">
+                        <p class="contact-p">Kasaragod,-kerala</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 contact-right bg-dark mt-1">
+
+                    <!--get in touch-->
+                        <form id="gform" class="col-lg-12"
+                            action="https://script.google.com/macros/s/AKfycbwYmc8IzQse2VaIJVsYmCUCaHf_31-FY-mdy78YQpGwVQ4WvJNNzIrFzkfa4XZxvHcl/exec">
+                            <h1 class="nav-id mb-5 text-white ">Get In Touch</h1>
+                            <label for="fname"><i class="fa mr-2 fa-user " aria-hidden="true"></i>
+                                Name</label>
+                            <input id="fname" type="text" name="name" value="Name" onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Name';}" required="">
+                            <div class="clearfix"></div>
+                            <label for="lname" ><i class="fas mr-2 fa-envelope-open"
+                                    aria-hidden="true"></i>Email</label>
+                            <input id="lname" type="email" name="email" value="Email" onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Email';}" required="">
+                            <div class="clearfix"></div>
+                            <label for="country" ><i class="fas mr-2 fa-phone"
+                                    aria-hidden="true"></i>Phone</label>
+                            <input id="country" type="number" name="phone" value="Phone" onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Phone';}" required="">
+                            <div class="clearfix"></div>
+                            <label for="message" ><i class="fas mr-2 fa-edit"
+                                    aria-hidden="true"></i>Message</label>
+                            <textarea id="message" class="textarea-contact" name="message" onfocus="this.value = '';"
+                                onblur="if (this.value == '') {this.value = 'Message...';}"
+                                required="">Message...</textarea>
+                            <input class="mb-4" type="submit" value="Submit">
+                        </form>
+                </div>
+            </div>
 
         </div>
     </section>
