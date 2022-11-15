@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driving school</title>
+    <link href="media/fav.ico" rel="icon" type="image/x-icon" />
+    <!--link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="pricing.css">
+    <!--w3 school image click to zoom -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/578dde0ad0.js" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <!--animation on div AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+    <!--main section-->
+    <div class="main">
+        <!--navigation-->
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light">
+            <div class="logo navbar-brand">
+                <a href="#"><img src="media/driving.gif" alt=""></a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- courses section  -->
+    <section class="section-couses" id="courses">
+        <div class="courses container">
+            <h2 class="nav-id text-light">Courses</h2>
+            <div class="row">
+
+                <div data-aos="slide-down" class="col-12 mt-2 mb-2">
+                    <div class="card">
+                        <img class="card-img-top" src="/media/car driving 2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Special title treatment</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting,
+                                remaining essentially unchanged. It was popularised in the 1960s with the release of
+                                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                            </p>
+                            <a href="#" class="btn btn-primary">Pricing</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--section footer-->
+    <section class="footer-section">
+        <footer data-aos="slide-up" class="py-3">
+            <div class="container">
+                <div data-aos="zoom-in-left" class="agileinfo-grids">
+                    <div class="agile-grid-left agile-grid-right text-center">
+                        <div class="social">
+                            <ul>
+                                <li><a target="_blank" href="https://www.facebook.com/faraz.shafi.520"><i
+                                            class="fab mr-2 fa-facebook-f"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fab mr-2 fa-twitter"></i></a></li>
+                                <li class="instagram-fontawesom"><a target="_blank"
+                                        href="https://www.instagram.com/faraz_pachu/"><i
+                                            class="fab fa-instagram-square"></i></a></li>
+                                <li><a target="_blank" href="#"><i class="fab mr-2 fa-pinterest"></i></a></li>
+                                <li><a target="blank" href="https://github.com/farazshafi/My-personal-Website"><i
+                                            class="fab fa-github-square"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright text-center">
+                    <p>© 2022 Driving school. All Rights Reserved | Design by Faraz Shafi</p>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+
+    <!--script section-->
+    <section>
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function () { scrollFunction() };
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+        <!--script bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+        <!--script w3-image click to zoom -->
+        <script>
+            function onClick(element) {
+                document.getElementById("img01").src = element.src;
+                document.getElementById("modal01").style.display = "block";
+            }
+        </script>
+        <!-- script smooth scrolling-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                duration: 1200
+            });
+        </script>
+
+    </section>
+</body>
+
+</html>

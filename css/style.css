@@ -14,13 +14,11 @@ body {
     height: auto;
 }
 
-.navbar {}
-
 a {
     color: white;
 }
 
-.image-div {}
+
 
 .main-img {
     width: 100%;
@@ -51,12 +49,10 @@ a {
 }
 
 /*gallery section*/
-.gallery {
-    height: auto;
-}
+
 
 .section-gallery {
-    background-color: #133863;
+    background-color: #ffffff;
 }
 
 /*courses section*/
