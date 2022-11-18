@@ -450,7 +450,7 @@
                         <textarea id="message" class="textarea-contact" name="Message" onfocus="this.value = '';"
                             onblur="if (this.value == '') {this.value = 'Message...';}"
                             required="">Message...</textarea>
-                        <input class="mb-4" type="submit" value="Submit">
+                        <input onclick="Submit_btn()" class="mb-4" type="submit" value="Submit">
                     </form>
                 </div>
             </div>
@@ -540,6 +540,12 @@
             AOS.init({
                 duration: 1300
             });
+        </script>
+        <script>
+            function Submit_btn(){
+                alert("message Sent successfully");
+                location.reload();
+            }
         </script>
     </section>
 </body>
