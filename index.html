@@ -95,6 +95,7 @@
 
             <div data-aos="slide-up" class="col-lg-12 mt-2 mb-2 home-about">
                 <p class="now-condition " id="timecheck"></p>
+                <p class="now-condition " id="sunday"></p>
             </div>
 
 
@@ -573,16 +574,22 @@
         </script>
         <!--html-->
         <script>
+
+            const date = new Date().getDay()
             const hour = new Date().getHours();
             let now;
 
-            if ((hour >= 7 && hour < 19)) {
+            if ( date == 0) {
+                now = "Today : Closed ";
+            } else if ((hour >= 7 && hour < 19)) {
                 now = "Now : Opened <br>Closing At: 7 PM";
-            } else {
+            }else{
                 now = "Now : Closed <br>Open's At: 7 AM";
             }
 
             document.getElementById("timecheck").innerHTML = now;
+
+
 
             function Submit_btn() {
                 alert("message sened successfully");
